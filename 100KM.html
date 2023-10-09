@@ -18,66 +18,62 @@
 </html>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
     <style>
-        body {
-            text-align: center;
+        body{
+         margin-top: 100pt;
+         background-color: black;
+        }
+        .name{
+            border: 1px;
+            border-radius: 50px;
+            padding: 10px;
+            width: 300px;
+            height: 30px;
+            background-color: white;
+            
+        }p{
+            color: white;
+        }
+        u{
+            color: green;
+        }
+        .create{
+            border: 1px;
+            border-radius: 50px;
+            padding: 10px;
+            width: 300px;
+            height: 70px;
+            background-color: green;
+            margin-left: 200pt;
         }
 
-        h1 {
-            font-size: 24px;
-        }
-
-        h2 {
-            font-size: 18px;
-        }
-
-        table {
-            margin: 0 auto;
-        }
-
-        td {
-            padding: 5px;
-            text-align: left;
-        }
-
-        input[type="text"] {
-            width: 100%;
-            padding: 5px;
-            margin-bottom: 5px;
-        }
-
-        p {
-            font-style: italic;
-        }
     </style>
+
+
 </head>
 <body>
     <center>
-        <h1>Condino Pizza Delivery</h1>
-        <h2>Online Order Form</h2>
-        <table>
-            <tr>
-                <td>*Name:</td>
-                <td><input type="text" id="name"></td>
-                <td>*Tel:</td>
-                <td><input type="text" id="tel"></td>
-            </tr>
-            <tr>
-                <td>*Address:</td>
-                <td><input type="text" id="address"></td>
-                <td>*Email:</td>
-                <td><input type="text" id="email"></td>
-            </tr>
-            <tr>
-                <td>*Town/City:</td>
-                <td><input type="text" id="city"></td>
-                <td>*Postcode:</td>
-                <td><input type="text" id="postcode"></td>
-            </tr>
-        </table>
-        <p>*required fields</p>
+        
+        <input type="text" class = "name" placeholder="Name" >
+        <br><br>
+        <input type="text" class = "name" placeholder="Phone Number" >
+        <br><br>
+        <input type="text" class = "name" placeholder="Email" >
+        <br><br>
+        <input type="text" class = "name" placeholder="Password" >
+        <br><br>
+        <p><input type="checkbox">I agree to the <u>Terms and Conditions</u> and <u>Privacy Policy</u></p>
+        <input type="button" class = "create" value="CREATE ACCOUNT">
+
     </center>
+
+    
 </body>
 </html>
